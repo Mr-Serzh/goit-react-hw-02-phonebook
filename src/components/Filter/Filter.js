@@ -10,7 +10,7 @@ function Filter({ value, onChange }) {
         type="text"
         value={value}
         onChange={onChange}
-        // name="filter"
+        name="filter"
         placeholder="input name"
       />
     </label>
