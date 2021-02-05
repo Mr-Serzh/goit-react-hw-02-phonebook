@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 img {
   display: inline-block;
   max-width: 100%;
@@ -10,7 +12,21 @@ li {
 }
 
 .container {
-  background-color: #e7ecf2;
+  font-family: 'Lato', sans-serif;
+
   text-align: center;
   padding: 20px 15px;
+  height: 100vh;
+  /* height: auto; */
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.2),
+      rgba(47, 48, 58, 0.2)
+    ),
+    url('../../images/pixabay.jpg');
+  background-color: #e7ecf2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
